@@ -1,0 +1,15 @@
+git init
+npm init
+
+-----------------------------
+npm install express
+npm install mongoose
+npm install pusher => es semejante socket.io
+npm install cors
+npm install nodemon -D
+
+
+Para Subir la aplicacion
+----------------------------------------------
+Banck => Heroku
+Front => Hosting de Firebase
