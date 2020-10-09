@@ -11,9 +11,9 @@ const app = express();
 const port = process.env.PORT || 9000;
 
 const pusher = new Pusher({
-    appId: '1087317',
-    key: '701f4dd525c92d2e6080',
-    secret: 'c9b172ab3654cebe5e5d',
+    appId: '12108731790',
+    key: '34701f4dd525c92d2e608034',
+    secret: '56c9b172ab3654cebe5e5d76',
     cluster: 'us2',
     useTLS: true
 });
@@ -24,7 +24,7 @@ app.use(express.json());
 app.use(cors());
 
 // db config
-const mongoURI = 'mongodb+srv://admin:2Vs1jGzWCoCTaQkr@cluster0.rgrk9.mongodb.net/messengerDB?retryWrites=true&w=majority';
+const mongoURI = 'mongodb+srv://USER:CODIGO@cluster0.rgrk9.mongodb.net/messengerDB?retryWrites=true&w=majority';
 mongoose.connect(mongoURI, {
     useCreateIndex: true,
     useNewUrlParser: true,
