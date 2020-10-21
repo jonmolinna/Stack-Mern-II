@@ -1,0 +1,21 @@
+Front End
+--------------------------------------------
+npm install @material-ui/core
+npm install @material-ui/icons
+npm install pusher-js
+npm install axios
+
+
+Back End
+--------------------------------------------
+git init
+npm init
+npm install -g nodemon
+
+npm install express
+npm install mongoose
+npm install pusher
+npm install cors
+
+
+9ZExNWLOUT1iZaQx
