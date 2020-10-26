@@ -1,0 +1,14 @@
+Backend
+--------------------------------------------
+npm init
+npm install express
+npm install mongoose
+npm install cors
+npm install pusher
+
+
+FrontEnd
+----------------------------------------------
+npm install image-file-to-base64-exif
+npm install axios
+npm install pusher-js
